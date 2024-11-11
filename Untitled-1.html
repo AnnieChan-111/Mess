@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>熊灿的介绍</title>
+    <style>
+        body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	background-image: url("img2.jpg"), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,126,1.00) 100%);
+	background-image: url("img2.jpg"), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,126,1.00) 100%);
+	background-image: url("img2.jpg"), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,126,1.00) 100%);
+	background-image: url("img2.jpg"), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,0,126,1.00) 100%);
+	background-size: cover;
+	background-attachment: fixed;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto; /* 添加顶部和底部间距，使内容居中 */
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+	/* [disabled]border-radius: 50%; */
+	width: 200px;
+	height: 200px;
+	bottom: auto;
+        }
+        .content {
+            text-align: justify;
+        }
+        .watermark {
+	position: absolute;
+	top: 30px;
+	left: 70px; /* 稍微向右移动水印 */
+	font-size: 60px;
+	color: rgba(0, 0, 0, 0.3);
+	transform: rotate(-30deg);
+	pointer-events: none;
+	z-index: -1;
+	bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="watermark">Annie Chan出品</div>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" width="200" height="55" alt=""/>
+            <h1>熊灿的介绍</h1>
+            <img src="xiongcan.jpg" alt="熊灿的照片" />
+        </div>
+        <div class="content">
+            <p>大家好，我叫熊灿，是中国传媒大学汉语言专业的学生。我喜欢吃吃吃吃吃吃哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈。</p>
+            <p>另，我还超级喜欢打蛋仔和原神，欢迎与我交流</p>
+        </div>
+    </div>
+</body>
+</html>
